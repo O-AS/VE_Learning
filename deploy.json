@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build", 
+    "start": "next start",
+    "deploy": "vercel --prod",
+    "deploy-preview": "vercel",
+    "check": "next build && next export"
+  }
+}
